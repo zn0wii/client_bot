@@ -1,0 +1,9 @@
+{application,robot,
+             [{description,[]},
+              {vsn,"1"},
+              {registered,[]},
+              {applications,[kernel,stdlib]},
+              {mod,{robot_app,[]}},
+              {env,[]},
+              {modules,[bot_data,bot_play,bot_proc,bot_sup,netsake,
+                        robot_app]}]}.
